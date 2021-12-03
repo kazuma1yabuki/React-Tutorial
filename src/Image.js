@@ -1,11 +1,11 @@
-function Image() {
-    const url = "https://images.dog.ceo/breeds/shiba/shiba-8.jpg"
+function Image(props) {
+
     return (
       <div className="card">
         <div className="card-image">
           <figure className="image">
             <img
-              src={url}
+              src={props.src}
               alt="cute dog"
             />
           </figure>
