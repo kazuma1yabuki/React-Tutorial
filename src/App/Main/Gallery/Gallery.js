@@ -1,4 +1,4 @@
-import Image from "../Image";
+import Image from "./Image";
 import Loading from "./Loading";
 
 function Gallery(props) {
