@@ -11,8 +11,11 @@ function Form(props) {
           <div className="control is-expanded">
             <div className="select is-fullwidth">
               <select name="breed" defaultValue="shiba">
-                <option value="shiba">Shiba</option>
-                <option value="akita">Akita</option>
+                <option value="shiba">柴犬</option>
+                <option value="akita">秋田犬</option>
+                <option value="beagle">ビーグル</option>
+                <option value="shihtzu">シーズー</option>
+                <option value="chihuahua">チワワ</option>
               </select>              
             </div>
           </div>
